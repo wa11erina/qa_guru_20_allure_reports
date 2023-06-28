@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fcadc3d-2c17-4e46-bcc0-6ac8df6cfba8" name="Changes" comment="add simple ci">
+    <list default="true" id="9fcadc3d-2c17-4e46-bcc0-6ac8df6cfba8" name="Changes" comment="add Selenoid properties for running web-tests">
       <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,11 +228,26 @@
       <option name="project" value="LOCAL" />
       <updated>1687972961508</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Selenoid properties for running web-tests">
+      <created>1687973617815</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687973617815</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add Selenoid properties for running web-tests">
+      <created>1687973649106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687973649106</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add simple ci" />
-    <option name="LAST_COMMIT_MESSAGE" value="add simple ci" />
+    <MESSAGE value="add Selenoid properties for running web-tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Selenoid properties for running web-tests" />
   </component>
 </project>
