@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fcadc3d-2c17-4e46-bcc0-6ac8df6cfba8" name="Changes" comment="add Selenoid properties for running web-tests">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="9fcadc3d-2c17-4e46-bcc0-6ac8df6cfba8" name="Changes" comment="new changes in test.yaml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,12 +240,27 @@
       <option name="project" value="LOCAL" />
       <updated>1687973649106</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new changes in test.yaml">
+      <created>1687974836378</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687974836378</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new changes in test.yaml">
+      <created>1687975066409</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687975066409</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add simple ci" />
     <MESSAGE value="add Selenoid properties for running web-tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Selenoid properties for running web-tests" />
+    <MESSAGE value="new changes in test.yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="new changes in test.yaml" />
   </component>
 </project>
