@@ -1,0 +1,44 @@
+plugins {
+    id 'java-library'
+    id 'io.qameta.allure' version '2.11.2'
+}
+
+group = 'guru.qa'
+version = '1.0-SNAPSHOT'
+
+allure {
+    report {
+        version.set("2.19.0")
+    }
+    adapter { // creates directory build/allure-results
+        aspectjWeaver.set(true) // processing @Step annotations
+        frameworks {
+            junit5 { // framework name
+                adapterVersion.set("2.19.0") // framework and Allure integration version
+            }
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation (
+            'org.junit.jupiter:junit-jupiter:5.10.0-M1',
+            'com.codeborne:selenide:6.15.0',
+            'io.qameta.allure:allure-selenide:2.22.2'
+    )
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
+test {
+    useJUnitPlatform()
+}
