@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fcadc3d-2c17-4e46-bcc0-6ac8df6cfba8" name="Changes" comment="new changes in test.yaml" />
+    <list default="true" id="9fcadc3d-2c17-4e46-bcc0-6ac8df6cfba8" name="Changes" comment="new workflow added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,20 +68,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ASUS/IdeaProjects/Mine/registration_form_tests",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/IdeaProjects/java_lessons&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.qa_guru_20_allure_reports [allureServe]">
+}</component>
+  <component name="RunManager" selected="Gradle.Tests in 'guru.qa.tests'">
     <configuration name="AnnotatedStepsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -202,8 +202,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.qa_guru_20_allure_reports [allureServe]" />
         <item itemvalue="Gradle.Tests in 'guru.qa.tests'" />
+        <item itemvalue="Gradle.qa_guru_20_allure_reports [allureServe]" />
         <item itemvalue="Gradle.ListenerTest" />
         <item itemvalue="Gradle.StepsTest" />
         <item itemvalue="Gradle.AnnotatedStepsTest" />
@@ -254,13 +254,29 @@
       <option name="project" value="LOCAL" />
       <updated>1687975066409</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new workspace">
+      <created>1687975516045</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687975516045</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new workflow added">
+      <created>1687975706370</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687975706370</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add simple ci" />
     <MESSAGE value="add Selenoid properties for running web-tests" />
     <MESSAGE value="new changes in test.yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="new changes in test.yaml" />
+    <MESSAGE value="new workspace" />
+    <MESSAGE value="new workflow added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new workflow added" />
   </component>
 </project>
