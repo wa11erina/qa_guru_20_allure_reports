@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fcadc3d-2c17-4e46-bcc0-6ac8df6cfba8" name="Changes" comment="new workflow added" />
+    <list default="true" id="9fcadc3d-2c17-4e46-bcc0-6ac8df6cfba8" name="Changes" comment="browser is closed in the end" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +72,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/IdeaProjects/java_lessons&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/IdeaProjects/Mine/qa_guru_20_allure_reports&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -268,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687975706370</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="browser is closed in the end">
+      <created>1688024135126</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688024135126</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -277,6 +284,7 @@
     <MESSAGE value="new changes in test.yaml" />
     <MESSAGE value="new workspace" />
     <MESSAGE value="new workflow added" />
-    <option name="LAST_COMMIT_MESSAGE" value="new workflow added" />
+    <MESSAGE value="browser is closed in the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="browser is closed in the end" />
   </component>
 </project>

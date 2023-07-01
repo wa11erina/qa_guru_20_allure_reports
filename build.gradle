@@ -6,15 +6,17 @@ plugins {
 group = 'guru.qa'
 version = '1.0-SNAPSHOT'
 
+def allureVersion = "2.21.0"
+
 allure {
     report {
-        version.set("2.19.0")
+        version.set(allureVersion)
     }
-    adapter { // creates directory build/allure-results
-        aspectjWeaver.set(true) // processing @Step annotations
+    adapter {
+        aspectjWeaver.set(true)
         frameworks {
-            junit5 { // framework name
-                adapterVersion.set("2.19.0") // framework and Allure integration version
+            junit5 {
+                adapterVersion.set(allureVersion)
             }
         }
     }
