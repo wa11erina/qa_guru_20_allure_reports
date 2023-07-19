@@ -1,7 +1,7 @@
 package guru.qa.tests;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
-import guru.qa.pages.GitHubSearch;
+import guru.qa.pages.GitHubSearchPage;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Test;
 
@@ -13,9 +13,9 @@ public class ListenerTest extends TestBase {
 
         SelenideLogger.addListener("allure", new AllureSelenide());
 
-        GitHubSearch gitHubSearch = new GitHubSearch();
+        GitHubSearchPage gitHubSearchPage = new GitHubSearchPage();
 
-        gitHubSearch.openUrl()
+        gitHubSearchPage.openUrl()
                 .clickSearchField()
                 .inputQuery(queryBlueSky)
                 .pressEnter()

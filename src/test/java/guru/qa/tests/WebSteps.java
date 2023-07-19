@@ -1,39 +1,39 @@
 package guru.qa.tests;
 
-import guru.qa.pages.GitHubSearch;
+import guru.qa.pages.GitHubSearchPage;
 import io.qameta.allure.Step;
 
 import static guru.qa.tests.TestData.*;
 
 public class WebSteps extends TestBase {
 
-    GitHubSearch gitHubSearch = new GitHubSearch();
+    GitHubSearchPage gitHubSearchPage = new GitHubSearchPage();
 
     @Step("Open Main page")
     public void openMainPage() {
-        gitHubSearch.openUrl();
+        gitHubSearchPage.openUrl();
     }
 
     @Step("Search for repository")
     public void searchForRepository() {
-        gitHubSearch.clickSearchField()
+        gitHubSearchPage.clickSearchField()
                 .inputQuery(queryBlueSky)
                 .pressEnter();
     }
 
     @Step("Click search result link")
     public void clickSearchResultLink() {
-        gitHubSearch.clickSearchResult();
+        gitHubSearchPage.clickSearchResult();
     }
 
     @Step("Open tab Issues")
     public void openIssuesTab() {
-        gitHubSearch.clickIssuesTab();
+        gitHubSearchPage.clickIssuesTab();
     }
 
     @Step("Check that issue with certain number exists")
     public void checkIssueNumber() {
-        gitHubSearch.checkIssueNumber(issueNumber);
+        gitHubSearchPage.checkIssueNumber(issueNumber);
     }
 
 }

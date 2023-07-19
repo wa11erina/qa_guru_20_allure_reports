@@ -1,7 +1,7 @@
 package guru.qa.tests;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
-import guru.qa.pages.GitHubSearch;
+import guru.qa.pages.GitHubSearchPage;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Test;
 
@@ -14,29 +14,29 @@ public class StepsTests extends TestBase {
 
         SelenideLogger.addListener("allure", new AllureSelenide());
 
-        GitHubSearch gitHubSearch = new GitHubSearch();
+        GitHubSearchPage gitHubSearchPage = new GitHubSearchPage();
 
 
         step("Open Main Page", () -> {
-            gitHubSearch.openUrl();
+            gitHubSearchPage.openUrl();
         });
 
         step("Search for" + " " + queryBlueSky, () -> {
-            gitHubSearch.clickSearchField()
+            gitHubSearchPage.clickSearchField()
                     .inputQuery(queryBlueSky)
                     .pressEnter();
         });
 
         step("Click search result link", () -> {
-            gitHubSearch.clickSearchResult();
+            gitHubSearchPage.clickSearchResult();
         });
 
         step("Open Issues tab", () -> {
-            gitHubSearch.clickIssuesTab();
+            gitHubSearchPage.clickIssuesTab();
         });
 
         step("Check that issue" + " " + issueNumber + " " + "exists", () -> {
-            gitHubSearch.checkIssueNumber(issueNumber);
+            gitHubSearchPage.checkIssueNumber(issueNumber);
         });
 
     }
